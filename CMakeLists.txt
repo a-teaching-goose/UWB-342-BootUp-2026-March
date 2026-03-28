@@ -32,7 +32,10 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/src/*.cpp")
 
 # ---- Define the program ----
 # Create an executable named "uwb_bootup" from those sources.
-add_executable(uwb_bootup ${SRC_FILES})
+add_executable(uwb_bootup
+        ${SRC_FILES}
+        src/QueueTest.cpp
+)
 
 # ---- Boost (Apple Silicon Homebrew) ----
 # Boost headers are installed to /opt/homebrew/include on M1/M2 Macs.
