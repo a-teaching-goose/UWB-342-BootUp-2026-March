@@ -20,5 +20,5 @@ Contact pengdu@uw.edu
 
 ## Instructor
 
-[Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b/)
+- [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b/)
 
