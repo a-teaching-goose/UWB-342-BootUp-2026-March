@@ -21,4 +21,5 @@ Contact pengdu@uw.edu
 ## Instructor
 
 - [Peng Du](https://www.linkedin.com/in/peng-du-ph-d-14b0a11b/)
+- Best way to contact: pengdu@uw.edu
 
