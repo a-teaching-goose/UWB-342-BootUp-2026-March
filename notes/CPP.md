@@ -381,7 +381,7 @@ int main() {
 
 ---
 
-## 3.3 Exercise 1: Pointer Arithmetic with Arrays
+## 3.3 Pointer Arithmetic with Arrays
 
 ```cpp
 #include <iostream>
@@ -419,7 +419,7 @@ int main() {
 
 ---
 
-## 3.4 Exercise 2: Pointer Arithmetic with Arrays (Returning a New Result Array)
+## 3.4 Pointer Arithmetic with Arrays (Returning a New Result Array)
 
 ```cpp
 #include <iostream>
@@ -458,7 +458,9 @@ int main() {
 }
 ```
 
-👉 This version dynamically allocates the result array and returns it. In production C++, prefer `std::vector<int>` or smart pointers to manage memory automatically.
+This version dynamically allocates the result array and returns it. 
+
+In production C++, prefer `std::vector<int>` or smart pointers to manage memory automatically.
 
 ⚠️ **Memory Leak Warning:** If you forget the `delete[] result;` line, tools like Valgrind will show output.
 
