@@ -5,8 +5,9 @@
 - [C++](https://github.com/a-teaching-goose/UWB-342-BootUp-2026-March/blob/main/notes/CPP.md)
 - [Git/GitHub](https://github.com/a-teaching-goose/UWB-342-BootUp-2026-March/blob/main/notes/Git_GitHub.md) (Supplementary notes alongside the Git sessions taught by others)
 
-## Got Question?
-Contact pengdu@uw.edu
+## Screen Recording
+
+[Link to video](https://youtu.be/AP-4DaHKP6s)
 
 ## Class Survey
 [Link](https://tinyurl.com/BootUpSurveySpr26)
