@@ -27,22 +27,13 @@ public:
 
 
 int main() {
-    Food foods[5] = {
-        Food("cake", 2),
-        Food("apple", 30),
-        Food("banana", 15),
-        Food("coffee", 90),
-        Food("fish", 3),
-    };
+    // reference
+    int num = 5;
 
-    Food food;
-    food = foods[0];
-    int lowest_expire_in_days = foods[0].days_to_expire;
-    for (int i = 0; i < 5; ++i) {
-        if (foods[i].days_to_expire < lowest_expire_in_days) {
-            lowest_expire_in_days = foods[i].days_to_expire;
-        }
-    }
+    int &ref = num;
+    ref = 10;
 
-    std::cout << "I should eat " << food.name << " first!" << std::endl;
+    std::cout << &num << std::endl;
+    std::cout << &ref << std::endl;
 }
+
